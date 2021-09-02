@@ -144,20 +144,22 @@
 .section-introduce .info-wrapper{
   float:left;
   padding:20px 10px;
-  margin-left:140px;
+  margin-left:200px;
 }
 .section-introduce .info-wrapper ul{
   list-style: none;
+  width: 300px;
+  padding-left: 10px;
 }
 .section-content .info-wrapper li{
-  padding:10px 0;
+  padding:8px 8px;
   font-size: 16px;
-
+  border-bottom: 1px solid #fff;
 }
 .section-introduce .photo-wrapper{
   float:right;
-  margin-right:100px;
-  width:300px;
+  margin-right:160px;
+  width:280px;
 }
 .section-introduce .photo-wrapper img{
   width:100%;
@@ -301,6 +303,9 @@
   margin-bottom:0;
   line-height: 28px;
 }
+.align-left {
+  text-align: left;
+}
 /*section-end*/
 
 /*媒体查询*/
@@ -367,7 +372,7 @@
     padding-left:60px;
   }
   .section-introduce .info-wrapper li{
-    padding:6px 0;
+    padding:10px 0 5px 0;
   }
   .section-introduce .photo-wrapper{
     width:auto;

@@ -24,7 +24,7 @@ $(document).ready(function () {
     htmlCanvas:0,
     cssCanvas:0,
     jsCanvas:0,
-    mysqlCanvas:0
+    javaCanvas:0
   };
   function canvasAnimate(id,count,step){
     var canvas=document.getElementById(id);
@@ -87,7 +87,7 @@ $(document).ready(function () {
       speed += step;
     }());
   }
-  var scrollTop,htmlCanvasTop,cssCanvasTop,jsCanvasTop,mysqlCanvasTop;
+  var scrollTop;
   var canStartCanvas=false;
   function startCanvas(scrollTop,id,count,step) {
     var offsetTop=$('#'+id).offset().top;
@@ -102,9 +102,9 @@ $(document).ready(function () {
   }
   $(window).scroll(function() {
     scrollTop=$(window).scrollTop();
-    startCanvas(scrollTop,'htmlCanvas',70);
+    startCanvas(scrollTop,'htmlCanvas',80);
     startCanvas(scrollTop,'cssCanvas',70);
-    startCanvas(scrollTop,'jsCanvas',55);
-    startCanvas(scrollTop,'mysqlCanvas',10,.2);
+    startCanvas(scrollTop,'jsCanvas',85);
+    startCanvas(scrollTop,'javaCanvas',20,.2);
   });
 });
