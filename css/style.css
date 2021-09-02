@@ -402,4 +402,11 @@
   .section-introduce .photo-wrapper{
     margin:0 20px;
   }
+  .section-skill .section-content {
+    font-size: 16px;
+  }
+  .section-skill .section-content .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
